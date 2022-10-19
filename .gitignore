@@ -34,11 +34,3 @@ Thumbs.db
 
 # -------------[ Android generated ]-------------------- #
 *.apk
-
-# -------------[ DocFx generated ]-------------------- #
-/**/Documentation/DROP/
-/**/Documentation/TEMP/
-/**/Documentation/packages/
-/**/Documentation/bin/
-/**/Documentation/obj/
-/**/Documentation/_site
