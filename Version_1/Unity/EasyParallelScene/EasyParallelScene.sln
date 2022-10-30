@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewAssembly", "NewAssembly.csproj", "{221A2083-57AD-41AB-FAC4-B065505CED84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyParallelScene.Editor", "EasyParallelScene.Editor.csproj", "{9676AACB-DD09-82FC-8300-5E3597D2A870}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyParallelScene.Tests", "EasyParallelScene.Tests.csproj", "{4461E2FF-C277-FFC6-C253-97226F4725B0}"
 EndProject
@@ -11,22 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asset-store-tools-editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyParallelScene.Editor.Tests", "EasyParallelScene.Editor.Tests.csproj", "{0371FB73-AEA6-0248-ED1B-58CF2BF605AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewAssembly", "NewAssembly.Player.csproj", "{A7FAA72C-07BD-5B54-E47C-C0200F0DE6F3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyParallelScene.Tests", "EasyParallelScene.Tests.Player.csproj", "{90032502-7785-2800-412B-FB09EB3FFEC5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyParallelScene", "EasyParallelScene.Player.csproj", "{3874A443-1F90-0391-A56A-452E5A0C20DE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{221A2083-57AD-41AB-FAC4-B065505CED84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{221A2083-57AD-41AB-FAC4-B065505CED84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{221A2083-57AD-41AB-FAC4-B065505CED84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{221A2083-57AD-41AB-FAC4-B065505CED84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9676AACB-DD09-82FC-8300-5E3597D2A870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9676AACB-DD09-82FC-8300-5E3597D2A870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9676AACB-DD09-82FC-8300-5E3597D2A870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9676AACB-DD09-82FC-8300-5E3597D2A870}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4461E2FF-C277-FFC6-C253-97226F4725B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4461E2FF-C277-FFC6-C253-97226F4725B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4461E2FF-C277-FFC6-C253-97226F4725B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,18 +37,6 @@ Global
 		{0371FB73-AEA6-0248-ED1B-58CF2BF605AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0371FB73-AEA6-0248-ED1B-58CF2BF605AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0371FB73-AEA6-0248-ED1B-58CF2BF605AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7FAA72C-07BD-5B54-E47C-C0200F0DE6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7FAA72C-07BD-5B54-E47C-C0200F0DE6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7FAA72C-07BD-5B54-E47C-C0200F0DE6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7FAA72C-07BD-5B54-E47C-C0200F0DE6F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90032502-7785-2800-412B-FB09EB3FFEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90032502-7785-2800-412B-FB09EB3FFEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90032502-7785-2800-412B-FB09EB3FFEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90032502-7785-2800-412B-FB09EB3FFEC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3874A443-1F90-0391-A56A-452E5A0C20DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3874A443-1F90-0391-A56A-452E5A0C20DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3874A443-1F90-0391-A56A-452E5A0C20DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3874A443-1F90-0391-A56A-452E5A0C20DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

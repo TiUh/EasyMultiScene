@@ -16,8 +16,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43.2
-    width: 2048
-    height: 1068.8
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 6}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2048
-    height: 1018.80005
+    width: 1536
+    height: 730.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 107
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,24 +59,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1457.6
+    x: 1092.8
     y: 0
-    width: 590.4
-    height: 1018.80005
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+    width: 443.19995
+    height: 730.8
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,10 +94,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 360
-    height: 616
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 269.6
+    height: 441.6
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -119,11 +119,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 616
-    width: 1457.6
-    height: 402.80005
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    y: 441.6
+    width: 1092.8
+    height: 289.19998
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -150,8 +150,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
-    height: 1068.8
+    width: 1536
+    height: 780.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -175,7 +175,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1048.8
-    width: 2048
+    y: 760.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -220,8 +220,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1457.6
-    height: 1018.80005
+    width: 1092.8
+    height: 730.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
@@ -245,8 +245,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1457.6
-    height: 616
+    width: 1092.8
+    height: 441.6
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -266,12 +266,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 360
+    x: 269.6
     y: 0
-    width: 1097.6
-    height: 616
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 823.2001
+    height: 441.6
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -327,21 +327,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1457.6
+    x: 1092.8
     y: 73.6
-    width: 589.4
-    height: 997.80005
+    width: 442.19995
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 1444
+    ID: 229
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 696
-    - 232
+    - 480
+    - 160
     relativeSizes:
     - 0.75
     - 0.25
@@ -351,7 +351,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 928
+    lastTotalSize: 640
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -359,7 +359,7 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
     m_Window: {fileID: 13}
     m_NewResultList:
@@ -379,10 +379,10 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
-      uniqueId: '[EasyParallelScene.Tests][D:/Tim/UnityAssets/EasyParallelScene/Version_1/Unity/EasyParallelScene/Library/ScriptAssemblies/EasyParallelScene.Tests.dll][suite]'
+    - id: 1017
+      uniqueId: '[EasyParallelScene.Tests.dll][suite]'
       name: EasyParallelScene.Tests.dll
-      fullName: D:/Tim/UnityAssets/EasyParallelScene/Version_1/Unity/EasyParallelScene/Library/ScriptAssemblies/EasyParallelScene.Tests.dll
+      fullName: C:/Tim/UnityAssets/EasyParallelScene/Version_1/Unity/EasyParallelScene/Library/ScriptAssemblies/EasyParallelScene.Tests.dll
       resultStatus: 0
       duration: 0
       messages: 
@@ -393,8 +393,89 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1000
+      parentId: 1011
       parentUniqueId: '[EasyParallelScene][suite]'
+    - id: 1018
+      uniqueId: EasyParallelScene.Tests.dll/[GUPS][suite]
+      name: GUPS
+      fullName: GUPS
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: '[EasyParallelScene.Tests.dll][suite]'
+    - id: 1019
+      uniqueId: EasyParallelScene.Tests.dll/GUPS/[EasyParallelScene][suite]
+      name: EasyParallelScene
+      fullName: GUPS.EasyParallelScene
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1018
+      parentUniqueId: EasyParallelScene.Tests.dll/[GUPS][suite]
+    - id: 1020
+      uniqueId: EasyParallelScene.Tests.dll/GUPS/EasyParallelScene/[EasyParallelScene.Tests][GUPS.EasyParallelScene.Tests][suite]
+      name: Tests
+      fullName: GUPS.EasyParallelScene.Tests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1019
+      parentUniqueId: EasyParallelScene.Tests.dll/GUPS/[EasyParallelScene][suite]
+    - id: 1015
+      uniqueId: EasyParallelScene.Tests.dll/GUPS/EasyParallelScene/Tests/[EasyParallelScene.Tests][GUPS.EasyParallelScene.Tests.ParallelSceneManagerTests][suite]
+      name: ParallelSceneManagerTests
+      fullName: GUPS.EasyParallelScene.Tests.ParallelSceneManagerTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: EasyParallelScene.Tests.dll/GUPS/EasyParallelScene/[EasyParallelScene.Tests][GUPS.EasyParallelScene.Tests][suite]
+    - id: 1016
+      uniqueId: EasyParallelScene.Tests.dll/GUPS/EasyParallelScene/Tests/ParallelSceneManagerTests/[EasyParallelScene.Tests][GUPS.EasyParallelScene.Tests.ParallelSceneManagerTests.CreateAndDeleteParallelScene]
+      name: CreateAndDeleteParallelScene
+      fullName: GUPS.EasyParallelScene.Tests.ParallelSceneManagerTests.CreateAndDeleteParallelScene
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: EasyParallelScene.Tests.dll/GUPS/EasyParallelScene/Tests/[EasyParallelScene.Tests][GUPS.EasyParallelScene.Tests.ParallelSceneManagerTests][suite]
     - id: 1001
       uniqueId: EasyParallelScene.Tests.dll/[EasyParallelScene.Tests][NewTestScript][suite]
       name: NewTestScript
@@ -451,7 +532,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: dc8add6c
       m_LastClickedID: 1826458332
-      m_ExpandedIDs: 45a12aec84cac3efdc8add6cffffff7f
+      m_ExpandedIDs: 820958c6bb1630d145a12aec84cac3ef44640833cefe4249a0439e5edc8add6cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -610,7 +691,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1007
       parentUniqueId: EasyParallelScene.Editor.Tests.dll/GUPS/EasyParallelScene/Editor/Tests/[EasyParallelScene.Editor.Tests][GUPS.EasyParallelScene.Editor.Tests.ParallelSceneTests][suite]
-    m_ResultText: CreateAndDeleteParallelScene (0.112s)
+    m_ResultText: CreateAndDeleteParallelScene (0,112s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -691,9 +772,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 689.60004
-    width: 1456.6
-    height: 381.80005
+    y: 515.2
+    width: 1091.8
+    height: 268.19998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -719,14 +800,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/GUPS/EasyParallelScene/Source
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Tim\UnityAssets\EasyParallelScene\Version_1\Unity\EasyParallelScene
+  m_LastProjectPath: C:\Tim\UnityAssets\EasyParallelScene\Version_1\Unity\EasyParallelScene
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: ca580000
-    m_LastClickedID: 22730
-    m_ExpandedIDs: 00000000be580000c0580000c2580000c4580000c6580000c8580000ca58000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 75.80002}
+    m_SelectedIDs: ce7f0000
+    m_LastClickedID: 32718
+    m_ExpandedIDs: 00000000bc7f0000be7f0000c27f0000c67f0000ce7f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -754,7 +835,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be580000c0580000c2580000c4580000c6580000c8580000ca580000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -830,10 +911,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1457.6
+    x: 1092.8
     y: 73.6
-    width: 589.4
-    height: 997.80005
+    width: 442.19995
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -844,7 +925,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 4544
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -873,8 +954,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 359
-    height: 595
+    width: 268.6
+    height: 420.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -882,9 +963,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c0110000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 22edffff34fbffff
+      m_ExpandedIDs: 7ed3ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -928,10 +1009,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 360
+    x: 269.6
     y: 73.6
-    width: 1095.6
-    height: 595
+    width: 821.2001
+    height: 420.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -942,7 +1023,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -175.20001, y: -25.599976}
+      snapOffsetDelta: {x: -175.20001, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1365,9 +1446,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 689.60004
-    width: 1456.6
-    height: 381.80005
+    y: 515.2
+    width: 1091.8
+    height: 268.19998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

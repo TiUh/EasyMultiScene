@@ -1,5 +1,5 @@
 {
-    "name": "NewAssembly",
+    "name": "EasyParallelScene.Editor",
     "rootNamespace": "",
     "references": [
         "GUID:854211c6a72807c42b73473ababf5e87"

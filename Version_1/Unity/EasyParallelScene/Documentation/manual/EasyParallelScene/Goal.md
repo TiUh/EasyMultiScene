@@ -21,6 +21,7 @@ ScriptAbleObject - ParallelScene
 - TimeScale: float
 - HashOverAll (https://forum.unity.com/threads/is-there-a-way-to-get-guid-on-runtime-in-build.892837/)
 
+- Singleton
 
 ParallelSceneManager
 -> UnloadParallelScene
@@ -34,14 +35,20 @@ In a dicitonary there is scenename to deltatime * ParallelScene.TimeScale.
 -> UnityEvents OnSceneActivated / OnSceneDeactivted and Messages
 -> Transfer: Move one GameObject from current scene to the selected.
 
+PRallelSceneHlerp /Editor
+-> GetAllAvailableParallelScenes
+
 ->LoadAndMerge(SceneTo, SceneNew, ApplyLayerFromTo)
 ->Load(SceneNew, ApplyLayerFromNew)
 
-->SwitchToParallelScene
+->SwitchToParallelScene(PauseOtherScenes, MoveGameObjects[], UseCamera: Camera (enable = true))
 Scene.GetRootGameObjects
-->MoveGameObjectToSceneWithTag()
+
+TagHelper
+->GetAllRootGameobjectWIthTag(Scene, searchChildren): Search CHildren too, if some child is Tag x, move specific root parent too with all children.
 
 
+SceneManager.GetActiveScene / SetActiveScene : Decides which lightning is used and instantian the objects in is used.
 
 Mode:
 -> MergeScene: Additive adds scene loaded to current.
