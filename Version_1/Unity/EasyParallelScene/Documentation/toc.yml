@@ -1,0 +1,10 @@
+- name: Manual
+  dropdown: true
+  items:
+  - name: EasyParallelScene
+    href: manual/EasyParallelScene/
+- name: Scripting API
+  dropdown: true
+  items:
+  - name: EasyParallelScene
+    href: api/EasyParallelScene/
