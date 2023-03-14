@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Background | GuardingPearSoftware documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Background | GuardingPearSoftware documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="background">Background</h1>
+
+<p>Occasionally, you need to run multiple scenes in parallel. For example, you may have a store scene 
+or an indoor scene that runs alongside your main game scene, and you want to be able to switch 
+between these different scenes without unloading the other scene and without having any physical 
+interactions (like collisons, lightning, sound, ...) between those scenes.</p>
+<p>For example you might have a &quot;Game&quot; scene, next to a &quot;Shop&quot; scene:</p>
+<p><img src="../../resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_GameMode.png" alt=""></p>
+<p>And you would like to switch between the &quot;Game&quot; scene:</p>
+<p><img src="../../resources/EasyParallelScene/Background/Game_Scene_Active.png" alt=""></p>
+<p>and the &quot;Shop&quot; scene:</p>
+<p><img src="../../resources/EasyParallelScene/Background/Shop_Scene_Active.png" alt=""></p>
+<p>This example, is also included as demo, is a simple game, where the player interacts with the &quot;Game&quot; 
+scene by moving around and try to kill cubes. He get score points and can use these to buy
+some upgrades for himself. This happens in the &quot;Shop&quot; scene, which is an extra scene, uneffected
+by the &quot;Game&quot; scene itself.</p>
+<h2 id="unity-has-no-multi-scenes">Unity has no multi-scenes</h2>
+<p>Unfortunately, Unity currently lacks a built-in feature for running multiple scenes in parallel 
+as described above. While it is possible to replicate this functionality by using certain 
+techniques and workarounds, it is important to note that there will still be some limitations and 
+drawbacks to doing so. These limitations may include issues such as increased complexity in the codebase, 
+potential performance bottlenecks, and difficulty in maintaining and troubleshooting the implementation. </p>
+<p>Let&#39;s have a look at the common solutions:</p>
+<ul>
+<li>Deactivate the gameobjects of the first scene and active the ones from the second scene. And vice versa.</li>
+</ul>
+<p>One option for switching between multiple scenes in Unity is to deactivate the gameobjects of the 
+first scene and activate the ones from the second scene, and then switch back the other way when 
+returning to the first scene. However, this method has the drawback that the gameobjects in the 
+deactivated scene will not continue to run or update while they are inactive. This can cause issues 
+such as maintaining the state of the gameobjects, preserving the continuity of gameplay, and ensuring 
+that the gameobjects are ready to be used when they are reactivated. Additionally, deactivating 
+and reactivating gameobjects can also introduce performance issues, especially if done frequently 
+or with a large number of gameobjects. It can be a solution, but it should be used with caution 
+and consideration of potential drawbacks and limitations.</p>
+<ul>
+<li>Have the gameobjects of the two scenes far away from each other in 3D space.</li>
+</ul>
+<p>Another option for managing multiple scenes in Unity is to have the gameobjects of the different 
+scenes placed far away from each other in 3D space. This allows the gameobjects of each scene to 
+exist independently of one another, without interfering with each other&#39;s functionality. However, 
+this method does require some additional considerations, such as finding a safe location to place 
+the gameobjects of the second scene that is far enough away from the first scene so as not to cause 
+conflicts or issues. It&#39;s also a solution that will require more attention to the design of the 
+game, as the player&#39;s movement between the scenes should be smooth and logical.</p>
+<h2 id="story-of-easyparallelscene">Story of EasyParallelScene</h2>
+<p>Both of the solutions I described above are not suitable for a game that I am developing that 
+requires a free open world scene and a separate scene that allows an editor to interact with that 
+world. The first solution of deactivating gameobjects and switching between scenes would not work 
+well in this case, as it would interrupt the continuity of the open world gameplay, create lacks 
+because of deactivation/activation of many gameobjects and also would not allow the editor to seamlessly 
+interact with the game world. The second solution of having the gameobjects of the different scenes 
+placed far away from each other in 3D space would also not be suitable, as the open world is procedural 
+and so you have to find a place, the player never reached.</p>
+<p>So, to overcome the limitations of the previously mentioned solutions, I developed my own ways 
+using Unity&#39;s layer techniques. By assigning different layers to the gameobjects in each of the 
+scenes, I was able to use separate cameras to render them independently and keep their colliders and 
+physics isolated from one another. This allowed me to have a free open world scene, as well as a 
+separate scene for the editor to interact with the world, without any interference or conflicts between
+the two. This approach also allowed me to maintain the continuity of the open world gameplay and 
+allowed the editor to make real-time changes to the game world without interrupting the player&#39;s 
+experience. Additionally, this solution is efficient, as it avoids unnecessary rendering and 
+physics calculation, thus improving performance. Overall, this solution proved to be a more suitable 
+and effective approach for my game, as it addresses the specific requirements and challenges of having 
+both open world scene and editor scene in the parallel, in the same world space and activate all the time.</p>
+<p>Using the beginning example, the two loaded parallel scenes (&quot;Game&quot; and &quot;Shop) will look in the Unity Editor 
+Scene View like the following, because they share the same world space:</p>
+<p><img src="../../resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_SceneMode.png" alt=""></p>
+<p>But still be rendered independently for the player, because of the EasyParallelScene approach:</p>
+<p><img src="../../resources/EasyParallelScene/Background/Game_Scene_Active.png" alt=""></p>
+<p><img src="../../resources/EasyParallelScene/Background/Shop_Scene_Active.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            GuardingPearSoftware documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

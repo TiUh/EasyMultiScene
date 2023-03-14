@@ -1,0 +1,11 @@
+apiRules:
+- exclude:
+    uidRegex: ^System
+- exclude:
+    uidRegex: ^UnityEngine
+- exclude:
+    uidRegex: ^UnitySampleAssets
+- exclude:
+    uidRegex: ^UnityStandardAssets.CrossPlatformInput
+- exclude:
+    uidRegex: ^GUPS.EasyParallelScene.Demo

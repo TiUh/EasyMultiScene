@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>How to start | GuardingPearSoftware documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="How to start | GuardingPearSoftware documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="how-to-start">How to start</h1>
+
+<p>EasyParallelScene is a simple but powerful asset/tool that enables developers to seamlessly manage multiple 
+scenes running in parallel to each other. With this tool, you can run multiple scenes in the same world 
+space without any interactions between them. It also allows you to switch between scenes easily, bringing 
+a selected scene in front while keeping the other scenes running in the background (in parallel) and 
+invisible to the player.</p>
+<p>How to setup this in your own game or application, will be explained in the following.</p>
+<h2 id="how-does-easyparallelscene-work">How does EasyParallelScene work</h2>
+<p>In short, EasyParallelScene uses the layer ability of Unity. By assigning a unique layer per scene
+to its gameobjects, it is possible to use separate cameras to render the gameobjects 
+independently and keep their colliders and physics isolated from one another. This allows to have
+multiple scenes without any interference or conflicts between those. While allowing to maintain 
+the continuity of the gameplay of each scene without interrupting the player&#39;s experience. 
+Additionally, it is efficient, as it avoids unnecessary rendering and physics calculation, thus 
+improving performance.</p>
+<h3 id="layer-and-tags">Layer and Tags</h3>
+<p>To understand how EasyParallelScene works, lets shortly have a look at the Layer and Tags itself.</p>
+<p><strong>Layer</strong></p>
+<p>In general in Unity, Layers are a way to separate different gameobjects into groups. Each gameobject 
+in Unity can be assigned to a specific layer, which allows for finer control over their interactions, 
+rendering, and visibility. The built-in layer system includes predefined layers like &quot;Default&quot;, 
+&quot;TransparentFX&quot;, &quot;Ignore Raycast&quot;, etc., but you can also create custom layers to fit your specific 
+needs. Layers can be used in conjunction with cameras, physics, and scripting to achieve desired 
+effects in your scene.</p>
+<p>Layer settings can be accessed via main menu: Edit &gt; Project Settings, selecting the Tags and Layers 
+category.</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Layer.png" alt=""></p>
+<p>(See more <a href="https://docs.unity3d.com/Manual/class-TagManager.html#Layers">https://docs.unity3d.com/Manual/class-TagManager.html#Layers</a>)</p>
+<p><strong>Tag</strong></p>
+<p>In Unity, tags are string labels that can be assigned to gameobjects. These labels allow you to 
+identify and categorize gameobjects in your scene, and can be used to filter objects for various 
+purposes such as scripting, physics, and rendering.</p>
+<p>Tags can be created and assigned to game objects in the Unity Editor, and they can be used to distinguish 
+between different types of objects, such as enemies, collectibles, and obstacles, in your scene. This can 
+be helpful for writing code that needs to interact with specific groups of objects, such as applying 
+damage to all enemies or finding all collectible objects in a scene.</p>
+<p>Tag settings can be accessed via main menu: Edit &gt; Project Settings, selecting the Tags and Layers 
+category.</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Tags.png" alt=""></p>
+<p>(See more <a href="https://docs.unity3d.com/Manual/class-TagManager.html#Tags">https://docs.unity3d.com/Manual/class-TagManager.html#Tags</a>)</p>
+<p><strong>Layer in EasyParallelScene</strong></p>
+<p>EasyParallelScene is based on Unity&#39;s built in layer system. Each parallel scene, and so its 
+gameobjects, receives a unique layer. This allows to separate in front and back scenes, by rendering 
+only the scene and gameobjects to the Player with the specific layer you want to have in front.</p>
+<p>In the meantime the layers of the back scenes continue to react independently on their own. 
+To ensure this system operates smoothly, it is necessary to properly set up the cameras, collision 
+layers, and lighting.</p>
+<p>Once assigned, you can switch between those scenes, by bringing a different layer in front (render it).</p>
+<p><strong>Tag in EasyParallelScene</strong></p>
+<p>As the layers are no longer available for custom distinction between gameobjects, it is recommended 
+to use tags instead. For instance, you could apply a &quot;Player&quot; tag to the player gameobject, or an 
+&quot;Enemy&quot; tag to the enemy gameobject. This will allow you to effectively differentiate and categorize 
+your gameobjects, even if they share the same layer.</p>
+<h3 id="camera">Camera</h3>
+<p>In Unity, the camera is an essential part of any project, as it determines what the player or user 
+sees in the game or application. This seeing or rendering is achieved through the use of a camera 
+component, which is attached to a gameobject in the scene. Which gameobjects will be rendered,
+can be defined by modifiy the camera components culling mask.</p>
+<p>To use the camera culling mask, you can set the &quot;Culling Mask&quot; property of the camera component in the 
+Inspector window. The culling mask is a bitmask that determines which layers the camera should render. 
+By checking one or multiple layers, the gameobjects included in this checked layer mask, will be visible
+to the player.</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Camera.png" alt=""></p>
+<p>(See more <a href="https://docs.unity3d.com/ScriptReference/Camera.html">https://docs.unity3d.com/ScriptReference/Camera.html</a>)</p>
+<p><strong>Camera in EasyParallelScene</strong></p>
+<p>The EasyParallelScene utilizes the layer system in Unity by assigning each scene its own distinct layer 
+and corresponding camera. This allows for the control of scene visibility for the player. To achieve this, 
+it is necessary to have at least one camera per scene, with the culling mask matching the scene layer, and 
+to assign all gameobjects within that scene to this same scene layer. For best results, it is recommended 
+to create a custom layer for each scene, ensuring proper organization and control over scene visibility.</p>
+<p>The camera in Unity serves not only as a renderer, but also as component for capturing mouse clicks or 
+touch inputs. This means, only objects visible by the camera and whose layer mask overlaps with the camera&#39;s 
+event mask will be able to receive OnMouseXXX events. To properly function in EasyParallelScene, it is 
+necessary to not only set the culling mask, but also the event mask to the specific layer of the scene. This 
+ensures that the proper scene in front, will respond to player inputs and interactions. </p>
+<p>For your comfort, this all automatically happens in the background, while switching scenes. But, if you would 
+like to use the EasyParallelScene approach in you very first scene. You have to do this setup manually. </p>
+<p>For the demo scene &quot;Game&quot; this would look like the following. First you need to assign the layer to the 
+&quot;ParallelScene&quot;:</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Setup_Camera_A.png" alt=""></p>
+<p>Next you setup the Camera rendering, by assigning the same layer to the &quot;CullingMask&quot;:</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Setup_Camera_B.png" alt=""></p>
+<p>Also you have to assign the &quot;ParallelScene&quot; layer to the existing gameobjects in this scene:</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Setup_Camera_C.png" alt=""></p>
+<p>And that&#39;s it.</p>
+<h3 id="collision">Collision</h3>
+<p>Next to the camera, the collision setup is important. Because you do not want different scenes with different 
+layers, in the same world space, to interact with each other without being visible for the player.</p>
+<p>In general, the Unity collision layers play a crucial role in defining how objects in a scene interact with 
+each other. They determine whether objects should collide or pass through each other, and are responsible for 
+the behavior of Physics2D and Physics3D components in the scene.</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Collision.png" alt=""></p>
+<p>(See more <a href="https://docs.unity3d.com/ScriptReference/Collider.html">https://docs.unity3d.com/ScriptReference/Collider.html</a>)</p>
+<p><strong>Collision in EasyParallelScene</strong></p>
+<p>The setup for the EasyParallelScene is simple and straightforward. To ensure that the different scenes in 
+the world space do not interact with each other, you just need to configure the layers to only collide with 
+themselves. This way, each scene will only respond to collisions within its own layer, allowing for proper 
+separation and control.</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Collision_Setup.png" alt=""></p>
+<h3 id="lightning">Lightning</h3>
+<p>In Unity, there are several lighting components that you can use to create a more realistic and immersive 
+environment for your game or application. Some of the main lighting components in Unity include:</p>
+<ul>
+<li><p>Light sources: There are several types of light sources in Unity, including directional lights, point lights, 
+spot lights, and area lights. Each type of light source has its own unique properties, such as direction, range, 
+and intensity.</p>
+</li>
+<li><p>Reflections: Reflections in Unity can be created using reflective shaders, reflection probes, and planar reflections. 
+Reflections can add a level of detail and realism to objects and surfaces in the scene, especially those with 
+reflective materials like metal or water.</p>
+</li>
+</ul>
+<p>(See more <a href="https://docs.unity3d.com/ScriptReference/Light.html">https://docs.unity3d.com/ScriptReference/Light.html</a> and <a href="https://docs.unity3d.com/Manual/class-ReflectionProbe.html">https://docs.unity3d.com/Manual/class-ReflectionProbe.html</a>)</p>
+<p><strong>Lightning in EasyParallelScene</strong></p>
+<p>Aside from the camera and collision setup, the proper configuration of lighting is also important. To ensure that the 
+scenes in the background do not affect the lighting in the front scene that is currently visible to the player, you want 
+to avoid strange lights, shadows, or reflections from messing into the player&#39;s view.</p>
+<p>Setting up the lighting in your scene is much like configuring the cameras. To make sure that lighting is only rendered 
+when it is required, you will need to adjust the culling mask. </p>
+<p>You need to do so for the lights:</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Light_Setup.png" alt=""></p>
+<p>And for the reflections:</p>
+<p><img src="../../resources/EasyParallelScene/Setup/Editor_Reflection_Setup.png" alt=""></p>
+<h2 id="how-to-setup-easyparallelscene-with-example">How to setup EasyParallelScene with example</h2>
+<p>After understanding the basics, we will setup an example, which is also included in this asset/tool as demo. You can find 
+it at: &quot;Assets\GUPS\EasyParallelScene\Demos\Voxel Shooter&quot;</p>
+<p><strong>Setup the Layers</strong></p>
+<p>The first thing to do is, find or create individual layers for each scene. In this example, I will just use the &quot;Water&quot;
+and &quot;UI&quot; layers because they are fixed and available in all projects, to make the demo work:</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_Layer.png" alt=""></p>
+<p><strong>Setup the ParallelScenes</strong></p>
+<p>Next you need to create a ParallelScene for each of your game scenes. To do so, press right click anywhere in your project
+(I do it in Assets\GUPS\EasyParallelScene\Demos\Voxel Shooter, because there are the demo scenes located) and 
+Create-&gt;GUPS-&gt;EasyParallelScene-&gt;ParallelScene. Give it a nice name (here &quot;GameParallelScene&quot;):</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_ParallelScene_Create.png" alt=""></p>
+<p>Open the file in the inspector and assign your layer from the first step. Do this for all your others scenes:</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_ParallelScene_Layer.png" alt=""></p>
+<p>You can also define a custom TimeScale for the scene, independent from the Unity Time.TimeScale allowing you a custom 
+DeltaTime. But the drawback is, this DeltaTime only works for scripts and not in Unity default components. This means, 
+physics or nav mesh agents will still use the Unity Time.TimeScale based DeltaTime:</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_ParallelScene_Timescale.png" alt=""></p>
+<p>Once finished, next you have to setup the layer of the gameobjects in the scenes itself (But only if it is your first 
+scene. EasyParallelScene will take of this work for you, if you switch to a scene using the ParallelSceneManager). 
+Open your scene, select the scene gameobjects and assign the layer:</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_Scene_GameObjects.png" alt=""></p>
+<p>Note: Instantiating or moving gameobjects directly into a ParallelScene is also possible using the ParallelSceneManager. This 
+gameobject and all its children will then automatically receive the correct layer settings.</p>
+<pre><code>/// &lt;summary&gt;
+/// Clones the GameObject _Original and returns the clone.
+/// When you clone a GameObject or Component, all child objects and components are also cloned with their properties set like those of the original object.
+/// This cloned GameObject will then be moved to the _ParallelScene.
+/// &lt;/summary&gt;
+/// &lt;param name=&quot;_Original&quot;&gt;GameObject to clone.&lt;/param&gt;
+/// &lt;param name=&quot;_Position&quot;&gt;Position for the cloned GameObject.&lt;/param&gt;
+/// &lt;param name=&quot;_Rotation&quot;&gt;Rotation for the cloned GameObject.&lt;/param&gt;
+/// &lt;param name=&quot;_ParallelScene&quot;&gt;Move cloned object to.&lt;/param&gt;
+/// &lt;returns&gt;&lt;/returns&gt;
+public GameObject Instantiate(GameObject _Original, Vector3 _Position, Quaternion _Rotation, ParallelScene _ParallelScene)
+</code></pre><p>The next important step is, to setup your scene camera, to render only the scene layer. To do so, open your camera and assign the
+culling mask (Like with the gameobjects, this is only required for your first scene, if not loaded via the ParallelSceneManager):</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_Scene_Camera.png" alt=""></p>
+<p><strong>Setup the ParallelSceneManager</strong></p>
+<p>Once you are done, creating the ParallelScenes you need to create the ParallelSceneManager gameobject. The ParallelSceneManager
+controls the whole loading, switching and unloading of scenes. Create a new gameobject in your start scene, assign the ParallelSceneManager 
+script and assign in the list below all ParallelScenes, to make them available in game.</p>
+<p><img src="../../resources/EasyParallelScene/Demo/Setup_ParallelSceneManager.png" alt=""></p>
+<p><strong>Load ParallelScenes</strong></p>
+<p>Now when starting your game you will only see your starting scene. To load a ParallelScene next to it in the back, you have to
+use the ParallelSceneManager. Call the method &quot;Load&quot; and wait until the scene is done loading.</p>
+<pre><code>/// &lt;summary&gt;
+/// Load a _ParallelScene either Single or Additive (Parallel) to the current Scenes.
+/// Note that this function behaves the same as SceneManager.LoadSceneAsync meaning that the load does not happen immediately.
+/// This behavior also means that the Scene that is returned has its state set to Loading.
+/// &lt;/summary&gt;
+/// &lt;param name=&quot;_ParallelScene&quot;&gt;The Scene to load.&lt;/param&gt;
+/// &lt;param name=&quot;_LoadSceneMode&quot;&gt;The loading mode. Either Single or Additive (Parallel).&lt;/param&gt;
+/// &lt;param name=&quot;_LoadGameObjectsFlags&quot;&gt;Decide how to load the GameObjects in the loading Scene.&lt;/param&gt;
+/// &lt;returns&gt;Returns the loading Scene async operation.&lt;/returns&gt;
+/// &lt;exception cref=&quot;ArgumentNullException&quot;&gt;&lt;/exception&gt;
+/// &lt;exception cref=&quot;Exception&quot;&gt;&lt;/exception&gt;
+public AsyncOperation Load(ParallelScene _ParallelScene, LoadSceneMode _LoadSceneMode, ELoadGameObjectFlag _LoadGameObjectsFlags)
+</code></pre><p><strong>Switch ParallelScenes</strong></p>
+<p>To finally switch between the newly loaded and the current scene, you can use the ParallelSceneManager and call the &quot;SwitchTo&quot;
+method.</p>
+<pre><code>/// &lt;summary&gt;
+/// Switch to a loaded ParallelScene and set it as active Scene. If the scene is not loaded yet, returns false.
+/// &lt;/summary&gt;
+/// &lt;param name=&quot;_ParallelScene&quot;&gt;Pass a ParallelScene to switch to.&lt;/param&gt;
+/// &lt;param name=&quot;_SwitchSceneFlag&quot;&gt;Manage the Scene switching.&lt;/param&gt;
+/// &lt;param name=&quot;_PauseCurrentScene&quot;&gt;Pause the active scene.&lt;/param&gt;
+/// &lt;returns&gt;Returns if the switching was successful.&lt;/returns&gt;
+public bool SwitchTo(ParallelScene _ParallelScene, ESwitchSceneFlag _SwitchSceneFlag, bool _PauseCurrentScene)
+</code></pre><p>That&#39;s mostly all you need to know to start. Sure there are many helper methods or extensions to make the usage of EasyParallelScene
+very easy to use. To learn more, just look around in the attached demo and its code. If you like the solution, give it a try.
+Suggestions for improvement are sure always welcome.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            GuardingPearSoftware documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
