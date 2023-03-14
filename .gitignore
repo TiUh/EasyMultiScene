@@ -31,6 +31,8 @@ Thumbs.db
 
 # -------------[ UnityAssets generated ]-------------------- #
 *_Data/
+Logs/
+Build/
 
 # -------------[ Android generated ]-------------------- #
 *.apk
