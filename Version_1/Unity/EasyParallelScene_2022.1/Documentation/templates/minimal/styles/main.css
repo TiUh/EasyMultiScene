@@ -77,17 +77,3 @@ header {
 .toc li:after {
   content: "";
 }
-
-@media (min-width: 1400px) {
-	.container {
-	  width: 1600px !important;
-	}
-}
-
-p {
-	text-align: justify !important;
-}
-
-* {
-	font: Arial !important;
-}

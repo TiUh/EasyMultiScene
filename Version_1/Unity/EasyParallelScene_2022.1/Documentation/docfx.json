@@ -82,6 +82,10 @@
                 "dest": ""
             }
         ],
+		 "template": [
+		  "default",
+		  "templates/minimal-custom"
+		],
         "dest": "_site"
     }
 }
