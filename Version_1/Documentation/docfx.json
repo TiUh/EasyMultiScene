@@ -1,0 +1,91 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "src": "..",
+                    "files": [
+                        "Unity/EasyParallelScene_2022.1/Assets/GUPS/**/*.cs"
+                    ],
+                    "exclude": [
+                        "Unity/EasyParallelScene_2022.1/Assets/Plugins/**"
+                    ]
+                }
+            ],
+            "globalNamespaceId": "GUPS.EasyParallelScene",
+            "filter": "filterConfig.yml",
+            "dest": "api/EasyParallelScene"
+        }
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "GuardingPearSoftware documentation",
+            "_appFooter": "GuardingPearSoftware documentation",
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [
+                    "toc.yml",
+                    "index.md"
+                ]
+            },
+			{
+                "src": "api",
+                "files": [
+                    "api.md"
+                ],
+                "dest": "api"
+            },
+            {
+                "src": "api/EasyParallelScene",
+                "files": [
+                    "*.yml"
+                ],
+                "dest": "api/EasyParallelScene"
+            },
+			{
+                "src": "manual",
+                "files": [
+                    "manual.md"
+                ],
+                "dest": "manual"
+            },
+            {
+                "src": "manual/EasyParallelScene",
+                "files": [
+                    "*.md",
+                    "toc.yml"
+                ],
+                "dest": "manual/EasyParallelScene"
+            }
+        ],
+        "overwrite": [
+            {
+                "src": "..",
+                "files": [
+                    "Unity/EasyParallelScene_2022.1/Assets/**/*.md"
+                ]
+            }
+        ],
+        "resource": [		
+            {
+                "files": [
+					"favicon.ico",
+					"logo.png"
+                ]
+            },
+            {
+                "files": [
+                    "resources/**/*"
+                ],
+                "dest": ""
+            }
+        ],
+		 "template": [
+		  "default",
+		  "templates/minimal-custom"
+		],
+        "dest": "_site"
+    }
+}

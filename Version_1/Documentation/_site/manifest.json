@@ -1,0 +1,778 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Tim/UnityAssets/EasyParallelScene/Version_1/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Behaviour.ParallelSceneListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Behaviour.ParallelSceneListener.html",
+          "hash": "iAVkYGsKGgoPhuvsotTm+Qqb7/7z5df1PceG58ZoYyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Behaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Behaviour.html",
+          "hash": "CqLC9eDseBA9EefnjlXxIzx0RhTeSgKjnimm8vK1Fis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ELoadGameObjectFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ELoadGameObjectFlag.html",
+          "hash": "oVKhx0/4HbiDqhVwl6o84zXO97fMGbrA96Sm+a0VgSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ESwitchSceneFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ESwitchSceneFlag.html",
+          "hash": "0K6xAfPfX231ro2xiI1FwvNVqWlh+0OFZSg885mxz08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.ParallelSceneEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.ParallelSceneEditor.html",
+          "hash": "IazqehMzR0Fn/Bud8QsPOs+jIFxP9TN9fza5AqPBqsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.ParallelSceneManagerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.ParallelSceneManagerEditor.html",
+          "hash": "UqQVvqg87pd7eLIRLd1KleEKMK5eU108e58OZCIQGHw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.Tests.ParallelScene.ParallelSceneTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.Tests.ParallelScene.ParallelSceneTests.html",
+          "hash": "CCNQ8+exBwtOI/mKvUynQ6t0yNW9bVopzl/SK00WgS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.Tests.ParallelScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.Tests.ParallelScene.html",
+          "hash": "zEzka8C3HaZUBLuCHa99xHgYlyuSAE1Jv+ppAsFxMno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Editor.html",
+          "hash": "idRveaWuByGJ7+wbAbsDG5VpLc8kkjY9SvTq24x+2/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.ComponentExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.ComponentExtension.html",
+          "hash": "M/2nNCpKp9Rhzf6yex7pzgKn5WVqXMlzQyJHnDUKgwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.SceneExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.SceneExtension.html",
+          "hash": "h5SvAuEdgAK6Ru5/PLxKIckXTAtw7NGTEDT3pC9LKNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Extension.html",
+          "hash": "bgZ0GsjB4t/2pDr368T9m8FDozSXY6i5dGf3WV5wh7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.AudioListenerHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.AudioListenerHelper.html",
+          "hash": "6DPCtJtDRSMJFVvltqbho5hDh52YxBC04RSwjdlgcrU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.AudioSourceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.AudioSourceHelper.html",
+          "hash": "15DBN2R3hRmcEtnjvn8fQbJ7sIB4BfV8k0Is9oWduyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.CameraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.CameraHelper.html",
+          "hash": "pf5bLqd/9mYOogR3+TWJ9wlEvOONhKV3ueM3IGRkCe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.EventSystemHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.EventSystemHelper.html",
+          "hash": "zEsNqzVM9qf6ddj8G7SkcM0Nzo+ki58qIX0ds2HU2HQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.GameObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.GameObjectHelper.html",
+          "hash": "zj4BH13sGxSihEDW1M5wMngPr24rCXz6OrlinCyOpcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.LightHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.LightHelper.html",
+          "hash": "VjT0wOQgSP4/KuxYEfspZt2UhHaBMcuqd3jYi2qVvpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Helper.html",
+          "hash": "Ev+dppZ3pqTD9wNeSgpoUef/ghQr6Nrc5ZzmDo7MWFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ParallelScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ParallelScene.html",
+          "hash": "svjwsMO6+4jVKmHqIvk1uBdE+y1Jk8biBIIUoRHTBDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ParallelSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.ParallelSceneManager.html",
+          "hash": "b67ir2yvTF5KlWJKW1q5LK0BOq9aVTKp4w/BeEZsPe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Singleton.PersistentSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Singleton.PersistentSingleton-1.html",
+          "hash": "OtpHSyjhPwjAmgMefJ7OZEslu34d4WgswTNCSxdLq3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Singleton.html",
+          "hash": "T/wY1TlN9KZjj2o17UDnc0mcPkqdDfKkEcQRM0VGzmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.CreateTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.CreateTests.html",
+          "hash": "B93bW14vE+eMRMVRXN0mqvX6F1CbEVOH7TagQcMLMSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.LoadTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.LoadTests.html",
+          "hash": "h7oUG1AP6LhRG1vnQOzZ0r5yRS9m1TchcvDA9qMjkTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.RegisterTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.RegisterTests.html",
+          "hash": "X5DptiwMRx++mphDWue9rzDTjJBjDqD/LK4tvItrRo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.SwitchTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.SwitchTests.html",
+          "hash": "w84wWmddEajpcLRywCVeAXMoHKk9Duecmf3pIUyM1Jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.TimeTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.TimeTests.html",
+          "hash": "gdglGlOvckzvA4RAzl64qKXS6ioM29jyuTsVcYmSnqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.Tests.ParallelSceneManager.html",
+          "hash": "fJMBQMxjc1i3Y/cLz/Cj9pGPyy0jCXVY/XWk/Ct4X7I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/GUPS.EasyParallelScene.html",
+          "hash": "Me1pwECtT+0BPY1kb4hUzBAW8EvzNgvl3i4gIjtbELM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/EasyParallelScene/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyParallelScene/toc.html",
+          "hash": "qrcxdh0saxDUD7aHtAQ9IB0aBq310LZqm8M9aW/qkRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "4a/Meo8hHB75sen4cNj/U/YSpSQ4OdyyuG3Cnol10n4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/EasyParallelScene/Background.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/EasyParallelScene/Background.html",
+          "hash": "gF/0nDqrRymrZmnHe17yL4lscMyln1nnisyuRXq423k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/EasyParallelScene/Description.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/EasyParallelScene/Description.html",
+          "hash": "gZfAYWOmEUGOcjEjXpb0QB+LPg+e/tle0cXsdg2vUpA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/EasyParallelScene/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/EasyParallelScene/Setup.html",
+          "hash": "ATqP8EhxCrzMNK5HTN2khC9T+w0qVrOIGS/chRzxhGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/EasyParallelScene/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/EasyParallelScene/toc.html",
+          "hash": "tQNSzuS+xjEOVLPbf3uF8jIxb6ErCXbeiriM388jIyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_GameMode.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_GameMode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_SceneMode.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Background/Game_And_Shop_Scenes_Parallel_SceneMode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Background/Game_Scene_Active.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Background/Game_Scene_Active.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Background/Shop_Scene_Active.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Background/Shop_Scene_Active.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_Layer.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_Layer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelSceneManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelSceneManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Create.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Create.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Layer.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Layer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Timescale.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_ParallelScene_Timescale.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_Scene_Camera.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_Scene_Camera.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Demo/Setup_Scene_GameObjects.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Demo/Setup_Scene_GameObjects.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Logo/EasyParallelScene_Logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Logo/EasyParallelScene_Logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Camera.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Camera.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Collision.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Collision.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Collision_Setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Collision_Setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Layer.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Layer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Light_Setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Light_Setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Reflection_Setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Reflection_Setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Editor_Tags.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Editor_Tags.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_A.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_A.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_B.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_B.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_C.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/EasyParallelScene/Setup/Setup_Camera_C.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "wO47yeEw8z35FJhoo0101Sd/OfHwIbM0LFSbOkVewSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 31,
+          "skipped_file_count": 31
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

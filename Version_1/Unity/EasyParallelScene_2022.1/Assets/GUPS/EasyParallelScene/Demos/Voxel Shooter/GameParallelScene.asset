@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenePath: Assets/GUPS/EasyParallelScene/Demos/Voxel Shooter/Game.unity
   layer: 4
-  useCustomTimeScale: 0
+  useCustomTimeScale: 1
   timeScale: 1
